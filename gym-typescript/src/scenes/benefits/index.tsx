@@ -133,8 +133,20 @@ const Benefits = ({setSelectedPage}: Props) => {
                             visible: { opacity: 1, x: 0},
                         }}
                     >
-                        <p className="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam atque dolore fugit possimus? Esse rerum ipsum exercitationem praesentium quidem? Hic asperiores sit quidem repellat ea corrupti laudantium, illo accusamus?</p>
-                        <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur itaque quia, veritatis reiciendis voluptas dolorem, rem nisi aliquid quos voluptates sit dolorum ab corrupti maiores cupiditate minima, atque mollitia.</p>
+                        <p className="my-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur laboriosam atque dolore fugit possimus? 
+                            Esse rerum ipsum exercitationem praesentium quidem? 
+                            Hic asperiores sit quidem repellat ea corrupti laudantium, illo accusamus? 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deserunt aspernatur itaque quia, veritatis reiciendis voluptas dolorem, rem nisi aliquid 
+                            quos voluptates sit dolorum ab corrupti maiores cupiditate minima, atque mollitia.
+                        </p>
+                        <p className="mb-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deserunt aspernatur itaque quia, veritatis reiciendis voluptas dolorem, 
+                            rem nisi aliquid quos voluptates sit dolorum ab corrupti maiores cupiditate minima, atque mollitia.
+                        </p>
                     </motion.div>
 
                     {/* button */}

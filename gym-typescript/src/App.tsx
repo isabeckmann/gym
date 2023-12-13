@@ -5,7 +5,7 @@ import ContactUs from './scenes/contactus';
 import { useState, useEffect } from "react";
 import { SelectedPage } from "./shared/types";
 import OurClasses from "./scenes/ourclasses";
-
+import Footer from "./scenes/footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home)
@@ -39,6 +39,8 @@ function App() {
          <OurClasses setSelectedPage={setSelectedPage}/>
 
          <ContactUs setSelectedPage={setSelectedPage}/>
+
+         <Footer />
       </div>
     </>
   );
